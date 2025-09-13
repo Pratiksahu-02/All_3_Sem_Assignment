@@ -1,27 +1,62 @@
-### Lab: Operating Systems ###
+# Operating Systems (OS)
 
-1. Basic Linux Commands and Overview (date, cal, who, tty, echo, bc, pwd, mkdir,
-rmdir, cd, cat, cp, mv, rm, ls, wc)
-2. Shell Programming
-i. Write a shell script to perform the tasks of basic calculator.
-ii. Write a shell script to find the greatest number among the three numbers.
-3. Shell Programming
-i. Write a shell script to check if the number entered at the command line is
-prime or not.
-ii. Write a shell script to display the multiplication table of any number.
-4. Shell Programming
-i. Write a shell script to compare two files and if found equal asks the user to
-delete the duplicate file.
-ii. Write a shell script to find the sum of digits of a given number.
-iii. Write a shell script to find the factorial of a given number.
-5. Write a program (using fork() and/or exec() commands) where parent and child
-execute:
-i. Same program, same code.
-ii. Same program, different code.
-iii. Before terminating, the parent waits for the child to finish its task.
-6. Write a program to copy files using system calls.
-7. Write a program using C to implement FCFS scheduling algorithm.
-8. Write a program using C to implement Round Robin scheduling algorithm.
-9. Write a program using C to implement SJF scheduling algorithm.
-10. Write a program using C to implement first-fit, best-fit, and worst-fit allocation
-strategies.
+## Course Overview
+This course covers fundamental concepts of operating systems, including process management, memory management, and file systems.
+
+## Lab Work
+
+### 1. Linux Fundamentals
+Basic Linux Commands and Overview:
+- System commands: `date`, `cal`, `who`, `tty`, `echo`, `bc`
+- File management: `pwd`, `mkdir`, `rmdir`, `cd`, `cat`, `cp`, `mv`, `rm`, `ls`, `wc`
+
+### 2. Shell Programming - Part 1
+1. Basic Calculator Implementation
+2. Finding Greatest Among Three Numbers
+
+### 3. Shell Programming - Part 2
+1. Prime Number Check Program
+2. Multiplication Table Generator
+
+### 4. Shell Programming - Part 3
+1. File Comparison and Duplicate Management
+2. Sum of Digits Calculator
+3. Factorial Calculator
+
+### 5. Process Management
+Programs using `fork()` and `exec()` commands:
+1. Parent and Child executing same program, same code
+2. Parent and Child executing same program, different code
+3. Parent waiting for Child process completion
+
+### 6. File Operations
+- File copying using system calls
+
+### 7. CPU Scheduling Algorithms
+1. First Come First Serve (FCFS) Implementation
+2. Round Robin Scheduling Implementation
+3. Shortest Job First (SJF) Implementation
+
+### 8. Memory Management
+- Implementation of memory allocation strategies:
+  - First-fit allocation
+  - Best-fit allocation
+  - Worst-fit allocation
+
+## Guidelines
+- Each lab assignment should be properly documented
+- Include comments explaining the logic
+- Follow coding standards
+- Submit assignments before deadlines
+
+## Resources
+- Lab manuals and documentation
+- Code examples
+- Reference materials
+- Linux command documentation
+
+## Submission Format
+1. Source code files
+2. Documentation/Report
+3. Output screenshots
+4. Any additional requirements specified in assignments
