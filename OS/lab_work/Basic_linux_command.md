@@ -23,8 +23,25 @@ Mon Nov 17 19:30:12 IST 2025
 **Purpose:** View calendar for the current or specified month.
 
 ```bash
-$ cal                    # current month
+$ cal
+  November 2025
+Su Mo Tu We Th Fr Sa
+           1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30
+
 $ cal 11 2025            # November 2025
+  November 2025
+Su Mo Tu We Th Fr Sa
+           1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30
 ```
 
 ### 3. `who` – Who is logged in
